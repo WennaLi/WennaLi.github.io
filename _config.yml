@@ -7,15 +7,15 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 site_theme               : "default"
 title                    : "李文娜的个人主页"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "李文娜"
+description              : &description "李文娜，中国人民大学公共管理学院博士研究生，研究方向包括数字治理、城市治理与生成式人工智能。"
 url                      : https://wennali.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "WennaLi/WennaLi.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,10 +25,10 @@ author:
   avatar           : "profile.png"
   name             : "李文娜"
   pronouns         : # example: "she/her"  
-  bio              : ""
+  bio              : "中国人民大学公共管理学院博士研究生"
   location         : "Beijing, China"
   employer         : "Renmin University of China"
-  uri              : # URL
+  uri              : "https://wennali.github.io/"
   email            : "lwn2022@ruc.edu.cn" 
 
   # Academic websites
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : # Username
+  github           : "WennaLi"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -174,17 +174,34 @@ exclude:
   - CHANGELOG
   - Capfile
   - config
+  - CONTRIBUTING.md
   - Dockerfile
+  - docker-compose.yaml
   - Gemfile
+  - Gemfile.lock
+  - files/bibtex1.bib
+  - files/paper1.pdf
+  - files/paper2.pdf
+  - files/paper3.pdf
+  - files/slides1.pdf
+  - files/slides2.pdf
+  - files/slides3.pdf
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - talkmap_out.ipynb
   - Rakefile
   - README
+  - README.md
+  - scripts
   - tmp
   - vendor
 keep_files:
@@ -297,7 +314,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

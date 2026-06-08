@@ -1,13 +1,18 @@
 source 'https://rubygems.org'
 
+gem 'jekyll', '~> 3.9.5'
+gem 'webrick', '~> 1.8'
+gem 'kramdown-parser-gfm'
+gem 'csv'
+
 group :jekyll_plugins do
-  gem 'jekyll'
   gem 'jekyll-feed'
-  gem 'jekyll-sitemap'
+  gem 'jekyll-gist'
+  gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
+  gem 'jekyll-sitemap'
   gem 'jemoji'
-  gem 'webrick', '~> 1.8'
 end
 
-gem 'github-pages'
-gem 'connection_pool', '2.5.0'
+gem 'ffi', '1.15.5'
+gem 'nokogiri', '1.13.10'
