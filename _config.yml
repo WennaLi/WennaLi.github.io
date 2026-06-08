@@ -22,7 +22,7 @@ repository               : "WennaLi/WennaLi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "李文娜"
   pronouns         : # example: "she/her"  
   bio              : "中国人民大学公共管理学院博士研究生"
